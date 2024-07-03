@@ -1,0 +1,2 @@
+# Set this to false if no permissions manager is installed (Such as Luck Perms)
+UsePermissionManager: true

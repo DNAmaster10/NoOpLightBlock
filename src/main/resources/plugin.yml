@@ -1,0 +1,14 @@
+name: NoOpLightBlock
+version: '${project.version}'
+main: org.dnamaster10.nooplightblock.NoOpLightBlock
+api-version: '1.19'
+authors: [ DNAmaster10 ]
+database: false
+prefix: NoOpLightBlock
+softdepend:
+  - WorldGuard
+
+permissions:
+  nooplightblock.changelightlevel:
+    description: Allows player to change the light level of a light block by clicking it
+    default: false
